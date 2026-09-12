@@ -175,6 +175,9 @@ a{ color:inherit; text-decoration:none; }
   display:flex; align-items:center; justify-content:center;
   color:var(--mute-light); font-size:12px; text-align:center; padding:14px;
 }
+.card img{
+  aspect-ratio:4/5; width:100%; object-fit:cover; display:block;
+}
 .card .info{ padding:12px 14px 16px; }
 .card .info .name{ font-weight:700; font-size:14px; margin-bottom:4px; }
 .card .info .price{ font-size:13px; color:var(--mute); }
