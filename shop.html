@@ -24,7 +24,10 @@
       <a href="crib.html">Too Easy Crib</a>
       <a href="contact.html">Contact</a>
     </nav>
-    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+    <div class="header-actions">
+      <button class="cart-btn" id="cart-toggle" aria-label="Open cart">🛍<span class="cart-count hidden" id="cart-count">0</span></button>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+    </div>
   </div>
   <div class="nav-mobile">
     <ul>
@@ -49,172 +52,412 @@
 <section class="section" id="regular-tee">
   <div class="wrap">
     <div class="grid-2">
-      <div class="card">
+      <div class="card" data-name="Regular Tee — White / Black print" data-price="15" data-image="assets/regular-tee/01-white-black.jpg">
         <img src="assets/regular-tee/01-white-black.jpg" alt="Too Easy Regular Tee — White / Black print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — White / Black print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — Black / White print" data-price="15" data-image="assets/regular-tee/02-black-white.jpg">
         <img src="assets/regular-tee/02-black-white.jpg" alt="Too Easy Regular Tee — Black / White print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — Black / White print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — Red / White print" data-price="15" data-image="assets/regular-tee/03-red-white.jpg">
         <img src="assets/regular-tee/03-red-white.jpg" alt="Too Easy Regular Tee — Red / White print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — Red / White print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — Cream / Black print" data-price="15" data-image="assets/regular-tee/04-cream-black.jpg">
         <img src="assets/regular-tee/04-cream-black.jpg" alt="Too Easy Regular Tee — Cream / Black print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — Cream / Black print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — Burgundy / White print" data-price="15" data-image="assets/regular-tee/05-burgundy-white.jpg">
         <img src="assets/regular-tee/05-burgundy-white.jpg" alt="Too Easy Regular Tee — Burgundy / White print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — Burgundy / White print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — Brown / White print" data-price="15" data-image="assets/regular-tee/06-brown-white.jpg">
         <img src="assets/regular-tee/06-brown-white.jpg" alt="Too Easy Regular Tee — Brown / White print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — Brown / White print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — Blue / White print" data-price="15" data-image="assets/regular-tee/07-blue-white.jpg">
         <img src="assets/regular-tee/07-blue-white.jpg" alt="Too Easy Regular Tee — Blue / White print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — Blue / White print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — Orange / White print" data-price="15" data-image="assets/regular-tee/08-orange-white.jpg">
         <img src="assets/regular-tee/08-orange-white.jpg" alt="Too Easy Regular Tee — Orange / White print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — Orange / White print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — Yellow / Black print" data-price="15" data-image="assets/regular-tee/09-yellow-black.jpg">
         <img src="assets/regular-tee/09-yellow-black.jpg" alt="Too Easy Regular Tee — Yellow / Black print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — Yellow / Black print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — Grey / Black print" data-price="15" data-image="assets/regular-tee/10-grey-black.jpg">
         <img src="assets/regular-tee/10-grey-black.jpg" alt="Too Easy Regular Tee — Grey / Black print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — Grey / Black print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — Forest Green / White print" data-price="15" data-image="assets/regular-tee/11-forest-white.jpg">
         <img src="assets/regular-tee/11-forest-white.jpg" alt="Too Easy Regular Tee — Forest Green / White print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — Forest Green / White print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — Olive / White print" data-price="15" data-image="assets/regular-tee/12-olive-white.jpg">
         <img src="assets/regular-tee/12-olive-white.jpg" alt="Too Easy Regular Tee — Olive / White print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — Olive / White print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — Teal / White print" data-price="15" data-image="assets/regular-tee/13-teal-white.jpg">
         <img src="assets/regular-tee/13-teal-white.jpg" alt="Too Easy Regular Tee — Teal / White print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — Teal / White print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — White / Red print" data-price="15" data-image="assets/regular-tee/14-white-red.jpg">
         <img src="assets/regular-tee/14-white-red.jpg" alt="Too Easy Regular Tee — White / Red print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — White / Red print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — White / Orange print" data-price="15" data-image="assets/regular-tee/15-white-orange.jpg">
         <img src="assets/regular-tee/15-white-orange.jpg" alt="Too Easy Regular Tee — White / Orange print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — White / Orange print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — White / Green print" data-price="15" data-image="assets/regular-tee/16-white-green.jpg">
         <img src="assets/regular-tee/16-white-green.jpg" alt="Too Easy Regular Tee — White / Green print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — White / Green print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — White / Gold print" data-price="15" data-image="assets/regular-tee/17-white-gold.jpg">
         <img src="assets/regular-tee/17-white-gold.jpg" alt="Too Easy Regular Tee — White / Gold print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — White / Gold print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — White / Pink print" data-price="15" data-image="assets/regular-tee/18-white-pink.jpg">
         <img src="assets/regular-tee/18-white-pink.jpg" alt="Too Easy Regular Tee — White / Pink print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — White / Pink print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — White / Yellow print" data-price="15" data-image="assets/regular-tee/19-white-yellow.jpg">
         <img src="assets/regular-tee/19-white-yellow.jpg" alt="Too Easy Regular Tee — White / Yellow print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — White / Yellow print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — Black / Orange print" data-price="15" data-image="assets/regular-tee/20-black-orange.jpg">
         <img src="assets/regular-tee/20-black-orange.jpg" alt="Too Easy Regular Tee — Black / Orange print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — Black / Orange print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — Black / Purple print" data-price="15" data-image="assets/regular-tee/21-black-purple.jpg">
         <img src="assets/regular-tee/21-black-purple.jpg" alt="Too Easy Regular Tee — Black / Purple print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — Black / Purple print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — Black / Pink print" data-price="15" data-image="assets/regular-tee/22-black-pink.jpg">
         <img src="assets/regular-tee/22-black-pink.jpg" alt="Too Easy Regular Tee — Black / Pink print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — Black / Pink print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — Black / Gold print" data-price="15" data-image="assets/regular-tee/23-black-gold.jpg">
         <img src="assets/regular-tee/23-black-gold.jpg" alt="Too Easy Regular Tee — Black / Gold print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — Black / Gold print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Regular Tee — Black / Red print" data-price="15" data-image="assets/regular-tee/24-black-red.jpg">
         <img src="assets/regular-tee/24-black-red.jpg" alt="Too Easy Regular Tee — Black / Red print" loading="lazy">
         <div class="info">
           <div class="name">Regular Tee — Black / Red print</div>
           <div class="price">$15 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
     </div>
@@ -227,32 +470,72 @@
       <h2 class="display">Comic<br>Tees</h2>
     </div>
     <div class="grid-2">
-      <div class="card">
+      <div class="card" data-name="Comic Tee — Green" data-price="25" data-image="assets/comic-tees/01-green-front.jpg">
         <img src="assets/comic-tees/01-green-front.jpg" alt="Comic Tee — Green" loading="lazy">
         <div class="info">
           <div class="name">Comic Tee — Green</div>
           <div class="price">$25 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Comic Tee — Cream" data-price="25" data-image="assets/comic-tees/03-cream-front.jpg">
         <img src="assets/comic-tees/03-cream-front.jpg" alt="Comic Tee — Cream" loading="lazy">
         <div class="info">
           <div class="name">Comic Tee — Cream</div>
           <div class="price">$25 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Comic Tee — Black" data-price="25" data-image="assets/comic-tees/05-black-front.jpg">
         <img src="assets/comic-tees/05-black-front.jpg" alt="Comic Tee — Black" loading="lazy">
         <div class="info">
           <div class="name">Comic Tee — Black</div>
           <div class="price">$25 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Comic Tee — Pink" data-price="25" data-image="assets/comic-tees/07-pink-front.jpg">
         <img src="assets/comic-tees/07-pink-front.jpg" alt="Comic Tee — Pink" loading="lazy">
         <div class="info">
           <div class="name">Comic Tee — Pink</div>
           <div class="price">$25 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
     </div>
@@ -265,32 +548,72 @@
       <h2 class="display">Trust Your<br>Dopeness</h2>
     </div>
     <div class="grid-2">
-      <div class="card">
+      <div class="card" data-name="Trust Your Dopeness — Brown" data-price="25" data-image="assets/trust-your-dopeness/01-brown-front.jpg">
         <img src="assets/trust-your-dopeness/01-brown-front.jpg" alt="Trust Your Dopeness — Brown" loading="lazy">
         <div class="info">
           <div class="name">Trust Your Dopeness — Brown</div>
           <div class="price">$25 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Trust Your Dopeness — Pink" data-price="25" data-image="assets/trust-your-dopeness/03-pink-front.jpg">
         <img src="assets/trust-your-dopeness/03-pink-front.jpg" alt="Trust Your Dopeness — Pink" loading="lazy">
         <div class="info">
           <div class="name">Trust Your Dopeness — Pink</div>
           <div class="price">$25 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Trust Your Dopeness — Black" data-price="25" data-image="assets/trust-your-dopeness/05-black-front.jpg">
         <img src="assets/trust-your-dopeness/05-black-front.jpg" alt="Trust Your Dopeness — Black" loading="lazy">
         <div class="info">
           <div class="name">Trust Your Dopeness — Black</div>
           <div class="price">$25 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Trust Your Dopeness — White" data-price="25" data-image="assets/trust-your-dopeness/07-white-front.jpg">
         <img src="assets/trust-your-dopeness/07-white-front.jpg" alt="Trust Your Dopeness — White" loading="lazy">
         <div class="info">
           <div class="name">Trust Your Dopeness — White</div>
           <div class="price">$25 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
     </div>
@@ -303,25 +626,55 @@
       <h2 class="display">Liberian Jue<br>Top</h2>
     </div>
     <div class="grid-2">
-      <div class="card">
+      <div class="card" data-name="Liberian Jue Top — Navy" data-price="12" data-image="assets/liberian-jue-top/01-navy.jpg">
         <img src="assets/liberian-jue-top/01-navy.jpg" alt="Liberian Jue Top — Navy" loading="lazy">
         <div class="info">
           <div class="name">Liberian Jue Top — Navy</div>
           <div class="price">$12 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Liberian Jue Top — Red" data-price="12" data-image="assets/liberian-jue-top/02-red.jpg">
         <img src="assets/liberian-jue-top/02-red.jpg" alt="Liberian Jue Top — Red" loading="lazy">
         <div class="info">
           <div class="name">Liberian Jue Top — Red</div>
           <div class="price">$12 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-name="Liberian Jue Top — White" data-price="12" data-image="assets/liberian-jue-top/03-white.jpg">
         <img src="assets/liberian-jue-top/03-white.jpg" alt="Liberian Jue Top — White" loading="lazy">
         <div class="info">
           <div class="name">Liberian Jue Top — White</div>
           <div class="price">$12 · S–XXL</div>
+          <div class="cart-controls">
+            <select class="size-select" aria-label="Size">
+              <option>S</option>
+              <option>M</option>
+              <option selected>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+            <button class="btn-add-cart" type="button">Add to cart</button>
+          </div>
         </div>
       </div>
     </div>
@@ -385,5 +738,19 @@
   </div>
 </footer>
 <script src="assets/main.js"></script>
+<script src="assets/cart.js"></script>
+<div class="cart-overlay" id="cart-overlay"></div>
+<aside class="cart-drawer" id="cart-drawer">
+  <div class="cart-drawer-head">
+    <span class="cart-title">YOUR CART</span>
+    <button class="cart-close" id="cart-close" aria-label="Close cart">✕</button>
+  </div>
+  <div class="cart-items" id="cart-items"></div>
+  <div class="cart-footer">
+    <div class="cart-total-row"><span>Total</span><span id="cart-total">$0</span></div>
+    <button class="btn btn-red" id="cart-checkout" style="width:100%;">Checkout on WhatsApp</button>
+    <p class="cart-note">Delivery &amp; final total confirmed via WhatsApp.</p>
+  </div>
+</aside>
 </body>
 </html>
