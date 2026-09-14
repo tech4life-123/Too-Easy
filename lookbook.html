@@ -24,7 +24,10 @@
       <a href="crib.html">Too Easy Crib</a>
       <a href="contact.html">Contact</a>
     </nav>
-    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+    <div class="header-actions">
+      <button class="cart-btn" id="cart-toggle" aria-label="Open cart">🛍<span class="cart-count hidden" id="cart-count">0</span></button>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+    </div>
   </div>
   <div class="nav-mobile">
     <ul>
@@ -106,5 +109,19 @@
   </div>
 </footer>
 <script src="assets/main.js"></script>
+<script src="assets/cart.js"></script>
+<div class="cart-overlay" id="cart-overlay"></div>
+<aside class="cart-drawer" id="cart-drawer">
+  <div class="cart-drawer-head">
+    <span class="cart-title">YOUR CART</span>
+    <button class="cart-close" id="cart-close" aria-label="Close cart">✕</button>
+  </div>
+  <div class="cart-items" id="cart-items"></div>
+  <div class="cart-footer">
+    <div class="cart-total-row"><span>Total</span><span id="cart-total">$0</span></div>
+    <button class="btn btn-red" id="cart-checkout" style="width:100%;">Checkout on WhatsApp</button>
+    <p class="cart-note">Delivery &amp; final total confirmed via WhatsApp.</p>
+  </div>
+</aside>
 </body>
 </html>
