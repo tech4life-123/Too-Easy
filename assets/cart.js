@@ -142,27 +142,27 @@
       });
     }
 
-    document.querySelectorAll('.btn-add-cart').forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        var card = btn.closest('.card');
-        if (!card) return;
-        var sizeSelect = card.querySelector('.size-select');
-        var item = {
-          name: card.getAttribute('data-name'),
-          price: parseFloat(card.getAttribute('data-price')),
-          image: card.getAttribute('data-image'),
-          size: sizeSelect ? sizeSelect.value : 'One size',
-          qty: 1
-        };
-        addToCart(item);
-        btn.textContent = 'Added ✓';
-        btn.classList.add('added');
-        setTimeout(function () {
-          btn.textContent = 'Add to cart';
-          btn.classList.remove('added');
-        }, 1200);
-        openCart();
-      });
+    document.addEventListener('click', function (e) {
+      var btn = e.target.closest('.btn-add-cart');
+      if (!btn) return;
+      var card = btn.closest('.card');
+      if (!card) return;
+      var sizeSelect = card.querySelector('.size-select');
+      var item = {
+        name: card.getAttribute('data-name'),
+        price: parseFloat(card.getAttribute('data-price')),
+        image: card.getAttribute('data-image'),
+        size: sizeSelect ? sizeSelect.value : 'One size',
+        qty: 1
+      };
+      addToCart(item);
+      btn.textContent = 'Added ✓';
+      btn.classList.add('added');
+      setTimeout(function () {
+        btn.textContent = 'Add to cart';
+        btn.classList.remove('added');
+      }, 1200);
+      openCart();
     });
   });
 })();
