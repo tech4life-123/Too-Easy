@@ -1,6 +1,6 @@
 // ===== Too Easy — Supabase connection =====
 // Loaded via CDN script tag before this file on any page that uses it.
-const SUPABASE_URL = 'https://rwlczmarwbsxye1pcshc.supabase.co';
+const SUPABASE_URL = 'https://rwlczmarwbsxyelpcshc.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_CXd10vVinJnpUJkQTbn-ew_7zbQeHKb';
 
 const sb = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
