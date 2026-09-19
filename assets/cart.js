@@ -1,7 +1,7 @@
 // ===== Too Easy — cart system =====
 (function () {
   var CART_KEY = 'too_easy_cart';
-  var WHATSAPP_NUMBER = '2310888908375';
+  var WHATSAPP_NUMBER = '231778760759';
 
   function getCart() {
     try { return JSON.parse(localStorage.getItem(CART_KEY)) || []; }
