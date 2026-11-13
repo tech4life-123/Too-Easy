@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0B2D6B">
+  <meta name="description" content="BuyLiberia — The Marketplace for Everyone. Discover Liberia's marketplace homepage preview.">
+  <title>BuyLiberia — The Marketplace for Everyone</title>
+  <link rel="preload" href="assets/buyliberia-primary-horizontal.png" as="image">
+  <link rel="stylesheet" href="assets/buyliberia.css">
+  <script src="assets/buyliberia.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-main">
+      <a class="brand" href="buyliberia.html" aria-label="BuyLiberia home">
+        <img src="assets/buyliberia-primary-horizontal.png" alt="BuyLiberia — The Marketplace for Everyone">
+      </a>
+
+      <form class="search" id="searchForm" role="search">
+        <label class="sr-only" for="searchInput">Search products</label>
+        <input id="searchInput" type="search" placeholder="Search for products..." autocomplete="off">
+        <button type="submit" aria-label="Search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 4.5 4.5"></path></svg>
+        </button>
+      </form>
+
+      <div class="header-actions">
+        <button class="account-button" id="accountButton" type="button">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.5"></circle><path d="M4.8 20a7.2 7.2 0 0 1 14.4 0"></path></svg>
+          <span>Account</span>
+        </button>
+        <button class="cart-button" id="cartButton" type="button" aria-label="Cart, 0 items">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 11.1a2 2 0 0 0 2 1.6h8.5a2 2 0 0 0 1.9-1.5L21 8H6"></path><circle cx="10" cy="20" r="1"></circle><circle cx="18" cy="20" r="1"></circle></svg>
+          <span>Cart</span><span class="cart-count" id="cartCount">0</span>
+        </button>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mainNav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="nav-bar" id="mainNav" aria-label="Main navigation">
+      <div class="nav-inner">
+        <a class="category-nav" href="#categories"><span class="menu-lines" aria-hidden="true">☰</span> All Categories <span aria-hidden="true">⌄</span></a>
+        <a class="active" href="#home">Home</a>
+        <a href="#showcase">Shop</a>
+        <a href="#sellers">Stores</a>
+        <a href="#showcase">Deals</a>
+        <a href="#about">About</a>
+        <a href="#about">Contact</a>
+        <a class="sell-nav" href="#sellers"><span aria-hidden="true">▣</span> Sell on BuyLiberia</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="heroTitle">
+      <div class="hero-copy">
+        <h1 id="heroTitle">Buy<span>Liberia</span></h1>
+        <p class="tagline">The Marketplace for Everyone.</p>
+        <div class="red-swoosh" aria-hidden="true"></div>
+        <h2>Discover. Shop. Sell.</h2>
+        <p class="hero-description">Explore the marketplace vision connecting customers with independent businesses across Liberia.</p>
+        <a class="primary-cta" href="#showcase">Start Exploring <span aria-hidden="true">→</span></a>
+        <p class="preview-label">Homepage preview · Marketplace listings are not live yet</p>
+      </div>
+      <figure class="hero-visual">
+        <img src="assets/buyliberia-homepage-reference.jpg" alt="Approved BuyLiberia homepage visual reference featuring a Liberian shopper">
+        <figcaption>Inspired by Liberia. Built for everyone.</figcaption>
+      </figure>
+    </section>
+
+    <section class="trust-strip" aria-label="BuyLiberia values">
+      <div class="trust-item">
+        <span class="trust-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32"><path d="M16 3 27 7v8c0 7-4.8 12-11 15C9.8 27 5 22 5 15V7z"></path><path d="m11 16 3.2 3.2L21.5 12"></path></svg>
+        </span>
+        <span>Shop with confidence</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32"><path d="M3 10h17v14H3zM20 15h5l4 4v5h-9z"></path><circle cx="9" cy="25" r="2.5"></circle><circle cx="24" cy="25" r="2.5"></circle></svg>
+        </span>
+        <span>Discover local businesses</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32"><circle cx="11" cy="11" r="4"></circle><circle cx="22" cy="12" r="3.5"></circle><path d="M3 26v-2a8 8 0 0 1 16 0v2zM19 20a7 7 0 0 1 10 6h-8"></path></svg>
+        </span>
+        <span>Support Liberian sellers</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="12"></circle><path d="M4 16h24M16 4c4 4 5 8 5 12s-1 8-5 12c-4-4-5-8-5-12s1-8 5-12z"></path></svg>
+        </span>
+        <span>One marketplace for everyone</span>
+      </div>
+    </section>
+
+    <section class="section categories-section" id="categories" aria-labelledby="categoriesTitle">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SHOP YOUR WAY</p>
+          <h2 id="categoriesTitle">Explore categories</h2>
+        </div>
+        <span class="section-aside">Marketplace preview</span>
+      </div>
+      <div class="category-grid">
+        <a class="category-card" href="#showcase"><span class="category-mark fashion-mark" aria-hidden="true">F</span><span>Fashion</span><span class="category-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-card" href="#showcase"><span class="category-mark tech-mark" aria-hidden="true">T</span><span>Electronics</span><span class="category-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-card" href="#showcase"><span class="category-mark home-mark" aria-hidden="true">H</span><span>Home &amp; Living</span><span class="category-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-card" href="#showcase"><span class="category-mark beauty-mark" aria-hidden="true">B</span><span>Beauty</span><span class="category-arrow" aria-hidden="true">↗</span></a>
+        <a class="category-card" href="#showcase"><span class="category-mark food-mark" aria-hidden="true">L</span><span>Food &amp; Drinks</span><span class="category-arrow" aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="section showcase-section" id="showcase" aria-labelledby="showcaseTitle">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">A MARKETPLACE FULL OF POSSIBILITY</p>
+          <h2 id="showcaseTitle">A taste of what's to come</h2>
+        </div>
+        <span class="section-aside">Visual concept · Not product listings</span>
+      </div>
+      <div class="showcase-grid" aria-label="Illustrative marketplace concept images">
+        <figure class="showcase-card">
+          <div class="showcase-image concept-shirt" role="img" aria-label="Apparel concept from the approved homepage reference"></div>
+          <figcaption><span>Apparel</span><small>Illustrative concept</small></figcaption>
+        </figure>
+        <figure class="showcase-card">
+          <div class="showcase-image concept-cap" role="img" aria-label="Headwear concept from the approved homepage reference"></div>
+          <figcaption><span>Local brands</span><small>Illustrative concept</small></figcaption>
+        </figure>
+        <figure class="showcase-card">
+          <div class="showcase-image concept-bag" role="img" aria-label="Shopping bag concept from the approved homepage reference"></div>
+          <figcaption><span>Made to share</span><small>Illustrative concept</small></figcaption>
+        </figure>
+        <figure class="showcase-card">
+          <div class="showcase-image concept-billboard" role="img" aria-label="BuyLiberia campaign concept from the approved homepage reference"></div>
+          <figcaption><span>Discover Liberia</span><small>Illustrative concept</small></figcaption>
+        </figure>
+      </div>
+      <p class="demo-note">These images are cropped from the approved design reference for visual context only. No live products, sellers, prices, search results, or checkout are shown.</p>
+    </section>
+
+    <section class="seller-banner" id="sellers" aria-labelledby="sellerTitle">
+      <div>
+        <p class="eyebrow">FOR LIBERIAN BUSINESSES</p>
+        <h2 id="sellerTitle">Your business belongs here.</h2>
+        <p>BuyLiberia is being built to help independent businesses connect with more customers.</p>
+      </div>
+      <button class="seller-button" id="sellerButton" type="button">Seller onboarding coming soon <span aria-hidden="true">→</span></button>
+    </section>
+
+    <section class="about-note" id="about">
+      <img src="assets/buyliberia-primary-horizontal.png" alt="" aria-hidden="true">
+      <p>Connecting customers and independent businesses across Liberia.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="footer-brand" href="buyliberia.html" aria-label="BuyLiberia home">
+      <img src="assets/buyliberia-primary-horizontal.png" alt="BuyLiberia — The Marketplace for Everyone">
+    </a>
+    <nav aria-label="Footer navigation">
+      <a href="#home">Home</a>
+      <a href="#categories">Categories</a>
+      <a href="#showcase">Marketplace preview</a>
+      <a href="#sellers">For sellers</a>
+    </nav>
+    <p>© 2026 BuyLiberia. Homepage preview.</p>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
